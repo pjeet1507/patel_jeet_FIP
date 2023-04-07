@@ -1,0 +1,126 @@
+.hidden{
+	display: none;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+    background-color: #1e1e28;
+}
+
+#desktop-mode{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* menu-ham */
+
+/* 2. ---Main Nav--- */
+
+#main-nav button {
+  width: 20px;
+  height: 20px;
+  background: url(../images/hambuger.svg) no-repeat center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  transition: all .5s ease;
+  border: 0;
+}
+
+#main-nav button.expanded {
+  transform: rotate(90deg);
+}
+
+#burger-con {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+#burger-con.slide-toggle {
+  display: block;
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav ul li a {
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+#main-nav ul li a:hover {
+  color: #39ff14;
+}
+
+#main-nav ul li:last-child {
+  margin-bottom: 10px;
+}
+
+.hero{
+  background: url(//images/mobilehero.png);
+  height: 750px;
+  width: ;
+}
+
+/* AKA Table screen */
+
+@media screen and (min-width: 768px) {
+
+    #main-nav{
+        display: none;
+    }
+    #desktop-mode{
+        display: contents;
+    }
+    .main-flex {
+        display: flex;
+        height: 50px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .main-logo{
+        padding-top: 20px;
+    }
+
+    .desktop-mode img{
+        width: 175px;
+    }
+    
+    li a{
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    
+    li{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}    
+
+/* Desktop */
+
+@media screen and (min-width: 1200px){
+    
+}
+
