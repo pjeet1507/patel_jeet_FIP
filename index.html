@@ -42,12 +42,94 @@
                     </ul>
                 </nav>
             </header>
-            <section id="Hero-page" class="grid-con">
-                <h3 class="hidden">Promotional video and Hero page</h3>
-                <div class="hero col-span-4 l-col-span-12">
+            <section class="full-width-grid-con">
+                <h3 class="hidden">Hero page</h3>
+                <img id="hero-image" class="col-span-full"
+                sizes="(max-width: 1280px) 100vw, 1280px"
+                srcset="
+                ./images/herocandone_wezbrq_c_scale,w_200.png 200w,
+                ./images/herocandone_wezbrq_c_scale,w_439.png 439w,
+                ./images/herocandone_wezbrq_c_scale,w_617.png 617w,
+                ./images/herocandone_wezbrq_c_scale,w_755.png 755w,
+                ./images/herocandone_wezbrq_c_scale,w_871.png 871w,
+                ./images/herocandone_wezbrq_c_scale,w_999.png 999w,
+                ./images/herocandone_wezbrq_c_scale,w_1096.png 1096w,
+                ./images/herocandone_wezbrq_c_scale,w_1190.png 1190w,
+                ./images/herocandone_wezbrq_c_scale,w_1280.png 1280w"
+                src="./images/herocandone_wezbrq_c_scale,w_1280.png"
+                alt="">
+                <!-- -------just the img here-------- -->
+            </section>
 
+            <section class="full-width-grid-con">
+                <h3 class="hidden">Promotional page</h3>
+                <img class="hero-image col-span-full"
+                    sizes="(max-width: 1280px) 100vw, 1280px"
+                    srcset="
+                    ./images/promo-img_z1cv9q_c_scale,w_200.png 200w,
+                    ./images/promo-img_z1cv9q_c_scale,w_437.png 437w,
+                    ./images/promo-img_z1cv9q_c_scale,w_620.png 620w,
+                    ./images/promo-img_z1cv9q_c_scale,w_750.png 750w,
+                    ./images/promo-img_z1cv9q_c_scale,w_863.png 863w,
+                    ./images/promo-img_z1cv9q_c_scale,w_980.png 980w,
+                    ./images/promo-img_z1cv9q_c_scale,w_1090.png 1090w,
+                    ./images/promo-img_z1cv9q_c_scale,w_1188.png 1188w,
+                    ./images/promo-img_z1cv9q_c_scale,w_1280.png 1280w"
+                    src="./images/promo-img_z1cv9q_c_scale,w_1280.png"
+                    alt="">
+                <div class="grid-con" id="hero-con">
+                    <a class="toproducts" href="product.html">Too Products!!</a>
                 </div>
             </section>
+
+            <section class="scontainer">
+                <div class="ttile">
+                <h2>Our Testimonials</h2>
+                </div>
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <img src="./images/the-rock.png" alt="The Rock">
+                            <h3>Dwayne "The Rock" Johnson</h3>
+                            <p>"As someone who trains hard and works even harder, I need an energy drink that can keep up with me. Swerve is the only energy drink that gives me the boost I need to power through my intense workouts and long days on set. It's my go-to drink for staying focused and energized."</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/serena-williams.png" alt="Serena Williams">
+                            <h3>Serena Williams</h3>
+                            <p>"As a professional athlete, I'm always looking for ways to improve my performance on the court. Swerve has become a crucial part of my training regimen, providing me with the energy and focus I need to stay at the top of my game. It's simply the best energy drink out there."
+
+                            </p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/kevin-hart.png" alt="Kevin Hart">
+                            <h3>Kevin Hart</h3>
+                            <p>"As a comedian, actor, and producer, I'm always on the go. Swerve is my secret weapon for staying alert and energized no matter how hectic my schedule gets. It's the perfect pick-me-up when I need it most, and it tastes great too. I wouldn't go a day without it!"</p>
+                        </div>
+                    </div>
+                    <button class="nav-button prev" onclick="prevItem()">&lt;</button>
+                    <button class="nav-button next" onclick="nextItem()">&gt;</button>
+            </section>
+            <section class="promotionalsec grid-con">
+                <div class="promotionaltext m-col-start-2 m-col-end-6 col-start-2 col-end-4 ">
+                    <h3>Swerve -all you need</h3>
+                    <p>"Rev up your day with Swerve - the energy drink that keeps you in the fast lane."</p>
+                </div>
+                <div class="Pvedio col-start-1 col-end-4 m-col-start-6 m-col-end-13">
+                    <a>video</a>
+                </div>
+            </section>
+            <footer class="footernav">
+                <h2 class="hidden">footer Nav</h2>
+
+                <ul class="fnav">
+                    <li><a class="main-logo" href="index.html"> <img src="./images/swerve.svg" alt="Swerve Logo" width="150">
+                    </a></li> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </footer>
+            <p class="copyright"> © All Rigts Reserved Swerve</p>
     <script src="./java/main.js"></script>
 </body>
 </html>

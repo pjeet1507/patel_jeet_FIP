@@ -1,0 +1,266 @@
+.hidden{
+	display: none;
+}
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+ }
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+ }
+
+.grid-main {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 16px;
+}
+
+#header-cot {
+	background-color: rgb(30, 30, 40);
+}
+
+.main-flex {
+	display: flex;
+	height: 50px;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+img{
+	width: 180px;
+}
+
+li a{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+#heropage{
+	background-image: url("/img/heroimg.png");
+	height: 550px;
+	width: 1200px;
+}
+.herotext{
+	grid-column: 5/9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#heropage .herotext a, #productpage .producttext a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 15px;
+	background-color: rgba(238,238,238, 0.7);
+	color: black;
+	font-size: 25px;
+	border-radius: 10px;
+}
+
+#heropage a, #productpage a{
+	color: aliceblue;
+	font-size: 20px;
+}
+
+.buttonvideo{
+	grid-column: 5/9;
+	display: flex;
+	height: 57px;
+	border: solid 1.5px #39ff14 ;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#productpage{
+	background-image: url("/img/productimg.png");
+	height: 550px;
+	width: 1200px;
+}
+
+.producttext{
+	grid-column: 5/9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.videotext{
+	grid-column:2/6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#videopage .videotext a{
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 15px;
+	color: white;
+	font-size: 25px;
+	border-radius: 10px;
+}
+
+#videopage{
+	background-color: rgb(30, 30, 40);
+	height: 550px;
+	width: 1200px;
+}
+
+.video-flex{
+	grid-column: 6/-1;
+	display: flex;
+	height: auto;
+	width: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.video-place-holder{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 360px;
+	width: 570px;
+	background-color: green;
+	border-radius: 5px;
+}
+
+.video-place-holder a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 15px;
+	color: wheat;
+	font-size: 25px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+/* contact form */
+
+body { background:rgb(30,30,40); }
+form { max-width:1000px; margin:50px auto; }
+
+
+.feedback-input {
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: 18px;
+	border-radius: 5px;
+	background-color: transparent;
+	border:2px solid green;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width: 1000px;
+	box-sizing: border-box;
+	outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #39ff14; }
+  
+  textarea {
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
+  }
+  
+  [type="submit"] {
+	width: 100%;
+	background:green;
+	border-radius:5px;
+	border:0;
+	cursor:pointer;
+	color:white;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	transition: all 0.3s;
+  }
+  [type="submit"]:hover { background:#2dcc10; }
+
+  /* footer */ 
+  
+  .footer-nav {
+	background-color: black;
+	height: 400px;
+	width: 1200px;
+	padding-top: 20px;
+  }
+
+  .footer-logo {
+	grid-column: 2/4;
+  }
+
+  .footer-list {
+	grid-column: 2/4;
+	padding: 20px;
+	line-height: 50px;
+	margin-top: -250px;
+	text-align: center;
+  }
+
+  hr {
+	display: block;
+	border-width: 1px;
+	margin-top: -100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+  }
+
+	p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 18px;
+  }
+
+  .socials img {
+	width: 48px;
+	padding-right: 10px;
+  }
+
+  .socials {
+	padding-top: 170px;
+	grid-column: 4/6;
+	grid-row: 1/2;
+  }
+
+  .email {
+	grid-column: 9/12;
+	grid-row: 1/2;
+  }
+
+  /* email signup */
+
+  .email-signup {
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: 18px;
+	border-radius: 5px;
+	background-color: transparent;
+	border:2px solid green;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width: 288px;
+	box-sizing: border-box;
+	outline:0;
+  }
+
+
+
+
