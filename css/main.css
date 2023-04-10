@@ -315,10 +315,21 @@ a:hover{
 
 /* ------Product page------ */
 
-.product-container h2, .product-container h3{
+.product-container h2{
   color: #fff;
   font-weight: bolder;
   letter-spacing: 2px;
+  font-size: 30;
+  padding: 10px;
+  border-bottom: #fff solid;
+  border-top: #fff solid;
+}
+
+ .product-container h3{
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 40px;
 }
 
 .carousel {
@@ -337,4 +348,8 @@ a:hover{
 .product-container p{
   color: wheat;
 }
+
+
+/* Contactus */
+
 
